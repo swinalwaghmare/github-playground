@@ -1,0 +1,19 @@
+app:
+  name: MyCoolApp
+  version: 1.0.0
+
+database:
+  host: localhost
+  port: 5432
+  username: admin
+  password: secret123
+  name: my_database
+
+logging:
+  level: info
+  file: logs/app.log
+
+features:
+- authentication
+- email_notifications
+- analytics
